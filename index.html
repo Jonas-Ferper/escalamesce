@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#202443" />
+  <meta name="description" content="Agenda MESCE — Outubro de 2026 · Paróquia São Francisco de Assis, Junco, Picos-PI. Gerada a partir de agendamin-2026-10-07.json." />
+  <title>Agenda MESCE · Outubro de 2026</title>
+  <style>
+    :root {
+      --ink: #202443;
+      --ink-soft: #5e627c;
+      --cream: #fbf8f1;
+      --paper: #fffdf9;
+      --line: #e8e4da;
+      --sun: #e9ad45;
+      --sun-soft: #fff1cf;
+      --coral: #c6604f;
+      --blue-soft: #eef0fb;
+      --shadow: 0 18px 50px rgba(32, 36, 67, .09);
+      --radius-lg: 26px;
+      --radius-md: 17px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--cream);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    :focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      color: #fffdf9;
+      background: var(--ink);
+      isolation: isolate;
+    }
+    .hero-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .hero::before, .hero::after {
+      position: absolute;
+      z-index: -1;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 50%;
+      content: "";
+    }
+    .hero::before { width: 480px; height: 480px; right: -190px; top: -260px; }
+    .hero::after { width: 330px; height: 330px; left: -200px; bottom: -250px; }
+    .hero-inner, .main-inner { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .hero-inner {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 9px;
+      color: var(--sun); font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase;
+    }
+    .cross { font-size: 1.05rem; line-height: 1; }
+    .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; align-items: end; gap: 48px; margin-top: 35px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      max-width: 720px; margin-bottom: 20px; font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.8rem, 7vw, 5.9rem); font-weight: 400; letter-spacing: -.065em; line-height: .92;
+    }
+    .hero-copy { max-width: 610px; margin: 0; color: #d7d9e9; font-size: clamp(1rem, 1.8vw, 1.18rem); }
+    .hero-meta { display: grid; gap: 13px; justify-self: end; width: min(100%, 315px); }
+    .meta-card { padding: 17px 19px; border: 1px solid rgba(255,255,255,.15); border-radius: var(--radius-md); background: rgba(255,255,255,.07); backdrop-filter: blur(10px); }
+    .meta-label { display: block; margin-bottom: 3px; color: #aeb2cb; font-size: .7rem; font-weight: 750; letter-spacing: .11em; text-transform: uppercase; }
+    .meta-value { font-size: 1.02rem; font-weight: 700; }
+
+    .toolbar-wrap { position: sticky; top: 10px; z-index: 5; }
+    .toolbar {
+      display: flex; align-items: center; gap: 14px; padding: 13px;
+      border: 1px solid rgba(32,36,67,.06); border-radius: 20px; background: var(--paper); box-shadow: var(--shadow);
+    }
+    .search { position: relative; flex: 1; }
+    .search svg { position: absolute; top: 50%; left: 15px; width: 18px; transform: translateY(-50%); color: var(--ink-soft); }
+    .search input { width: 100%; padding: 13px 16px 13px 44px; border: 0; border-radius: 12px; outline: 0; color: var(--ink); background: var(--blue-soft); }
+    .search input::placeholder { color: #898da4; }
+    .print-button { display: inline-flex; align-items: center; gap: 8px; padding: 12px 15px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: transparent; font-weight: 750; white-space: nowrap; transition: border-color .2s, background .2s, opacity .2s; }
+    .print-button:hover { border-color: var(--ink); background: var(--blue-soft); }
+    .print-button:disabled { opacity: .55; cursor: wait; }
+
+    main { padding: 48px 0 80px; }
+    .section-heading { display: flex; align-items: end; justify-content: center; gap: 20px; margin-bottom: 24px; text-align: center; }
+    .section-heading h2 { margin-bottom: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 400; letter-spacing: -.04em; }
+    .section-heading p { margin-bottom: 4px; color: var(--ink-soft); font-size: .92rem; }
+    .recado { position: relative; overflow: hidden; max-width: 760px; margin: 0 auto 30px; padding: 26px 28px 22px 30px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--paper); box-shadow: var(--shadow); text-align: left; }
+    .recado::before { position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: linear-gradient(180deg, var(--sun), var(--coral)); content: ""; }
+    .recado::after { position: absolute; right: -70px; top: -70px; width: 190px; height: 190px; border: 1px solid rgba(32,36,67,.07); border-radius: 50%; content: ""; pointer-events: none; }
+    .recado-eyebrow { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 10px; color: var(--coral); font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .recado h2 { margin: 0 0 12px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.4rem, 3.4vw, 1.9rem); font-weight: 400; letter-spacing: -.02em; }
+    .recado p { margin: 0 0 12px; color: var(--ink-soft); font-size: .98rem; line-height: 1.65; }
+    .recado p:last-child { margin-bottom: 0; }
+    .recado strong { color: var(--ink); }
+    .recado .assinatura { display: flex; align-items: center; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--ink); font-size: .82rem; font-weight: 750; }
+    .recado .assinatura::before { width: 8px; height: 8px; border-radius: 50%; background: var(--sun); content: ""; }
+    .day-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 640px; margin: 0 auto 34px; padding: 3px 2px 10px; }
+    .day-nav button { padding: 10px 14px; border: 1px solid var(--line); border-radius: 13px; color: var(--ink-soft); background: var(--paper); font-size: .8rem; font-weight: 800; }
+    .day-nav button:first-child { min-width: 88px; }
+    .day-nav button:hover, .day-nav button.active { border-color: var(--ink); color: #fff; background: var(--ink); }
+    .schedule { display: grid; gap: 22px; }
+    .day-card { scroll-margin-top: 18px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--paper); box-shadow: 0 5px 22px rgba(32,36,67,.035); }
+    .day-card.is-hidden { display: none; }
+    .day-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 19px 23px; border-bottom: 1px solid var(--line); background: linear-gradient(90deg, var(--blue-soft), rgba(238,240,251,.18)); }
+    .day-number { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; color: #fff; background: var(--coral); font-size: .8rem; font-weight: 850; letter-spacing: .04em; text-align: center; line-height: 1.05; }
+    .day-number small { display: block; font-size: .58rem; letter-spacing: .04em; }
+    .day-title { margin: 0; font-size: 1.1rem; letter-spacing: -.02em; }
+    .day-date { margin: 2px 0 0; color: var(--ink-soft); font-size: .88rem; }
+    .weekday { color: var(--ink-soft); font-size: .83rem; font-weight: 750; text-align: right; }
+    .communities { display: grid; grid-template-columns: repeat(auto-fit, minmax(205px, 1fr)); gap: 14px; padding: 22px 23px 24px; }
+    .community { padding: 14px 15px; border: 1px solid var(--line); border-radius: var(--radius-md); background: #fff; }
+    .community h3 { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; color: var(--ink); font-size: .88rem; }
+    .community h3::after { width: 7px; height: 7px; border-radius: 50%; background: var(--sun); content: ""; flex: 0 0 auto; }
+    .names { display: grid; gap: 5px; margin: 0; padding: 0; list-style: none; color: var(--ink-soft); font-size: .9rem; }
+    .names li { position: relative; padding-left: 14px; }
+    .names li::before { position: absolute; left: 0; top: .68em; width: 5px; height: 1px; background: var(--coral); content: ""; }
+    .assignments { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding: 22px 23px 24px; }
+    .assignment-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; grid-column: 1 / -1; }
+    .assignment { min-width: 0; padding: 13px 14px 12px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+    .assignment.has-photo { display: grid; grid-template-columns: 76px minmax(0, 1fr); align-items: center; gap: 13px; }
+    .assignment-photo { width: 76px; height: 76px; border: 2px solid var(--sun-soft); border-radius: 50%; object-fit: cover; background: var(--blue-soft); }
+    .assignment.no-photo { border-style: dashed; }
+    .assignment-name { display: block; overflow: hidden; color: var(--ink); font-size: 1.02rem; font-weight: 800; line-height: 1.18; }
+    .assignment-community { display: block; overflow: hidden; margin-top: 3px; color: var(--ink-soft); font-size: .74rem; text-overflow: ellipsis; white-space: nowrap; }
+    .assignment-community::before { display: inline-block; width: 5px; height: 5px; margin: 0 6px 2px 0; border-radius: 50%; background: var(--sun); content: ""; }
+    .day-footer { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 13px 23px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .8rem; }
+    .total { display: inline-flex; align-items: center; gap: 7px; color: var(--ink); font-weight: 800; }
+    .total::before { width: 8px; height: 8px; border-radius: 50%; background: var(--sun); content: ""; }
+    .mass { color: var(--ink-soft); }
+    .empty { display: none; padding: 28px; border: 1px dashed #c8c6be; border-radius: var(--radius-lg); color: var(--ink-soft); text-align: center; }
+    .empty.visible { display: block; }
+    footer { padding: 25px 0 35px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .8rem; }
+    footer > .main-inner { display: block; }
+    footer .toolbar-wrap { margin-bottom: 25px; }
+    footer .toolbar-wrap > .main-inner { width: 100%; }
+    .footer-row { display: flex; justify-content: space-between; gap: 20px; }
+
+    @media (max-width: 700px) {
+      .hero-inner, .main-inner { width: min(100% - 28px, 1120px); }
+      .hero-inner { padding: 0; }
+      .hero-grid { display: block; margin-top: 29px; }
+      h1 { margin-bottom: 17px; font-size: clamp(2.75rem, 16vw, 4.7rem); }
+      .hero-meta { grid-template-columns: 1fr 1fr; width: 100%; margin-top: 30px; }
+      .meta-card { padding: 13px 14px; }
+      .meta-card:last-child { grid-column: 1 / -1; }
+      .toolbar { display: block; padding: 10px; }
+      .print-button { width: 100%; justify-content: center; margin-top: 9px; }
+      main { padding-top: 36px; }
+      .section-heading { display: block; }
+      .section-heading p { margin-top: 6px; }
+      .day-header { grid-template-columns: auto 1fr; gap: 12px; padding: 15px; }
+      .weekday { grid-column: 2; text-align: left; margin-top: -8px; }
+      .communities { grid-template-columns: 1fr; padding: 15px; gap: 10px; }
+      .assignments { gap: 7px; padding: 15px; }
+      .assignment-pair { gap: 7px; }
+      .assignment { padding: 10px 9px 9px; }
+      .assignment.has-photo { grid-template-columns: 58px minmax(0, 1fr); gap: 8px; }
+      .assignment-photo { width: 58px; height: 58px; }
+      .assignment-name { font-size: .88rem; }
+      .assignment-community { font-size: .64rem; }
+      .day-footer { padding: 12px 15px; }
+      .recado { padding: 20px 18px 18px 22px; }
+      .footer-row { display: block; }
+      footer p:last-child { margin-top: 5px; }
+    }
+    @media print {
+      .toolbar-wrap, .day-nav, footer { display: none; }
+      .hero-inner { padding: 0; }
+      .hero::before, .hero::after { display: none; }
+      main { padding: 20px 0; }
+      .day-card { break-inside: avoid; box-shadow: none; }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .day-card { animation: rise .5s both; }
+      .day-card:nth-child(2) { animation-delay: .04s; } .day-card:nth-child(3) { animation-delay: .08s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    }
+  
+    .load-error { display:none; margin:0 auto 18px; max-width:640px; padding:12px 16px; border:1px solid #e5b4ab; border-radius:12px; background:#fdecea; color:#8c2f22; font-size:.85rem; }
+    .load-error.visible{display:block;}
+</style>
+</head>
+<body>
+  <header class="hero">
+    <img class="hero-image" src="header.png" alt="Agenda MESCE — Outubro de 2026 · Paróquia São Francisco de Assis, Junco, Picos-PI." />
+    <div class="hero-inner">
+      <div class="eyebrow"><span class="cross">✠</span> Agenda MESCE · Outubro de 2026</div>
+      <div class="hero-grid">
+        <div>
+          <h1>Agenda MESCE</h1>
+          <p class="hero-copy">Santa Missa · Paróquia São Francisco de Assis, Junco — Picos-PI. Dados de agendamin-2026-10-07.json.</p>
+        </div>
+        <div class="hero-meta" aria-label="Informações da agenda">
+          <div class="meta-card"><span class="meta-label">Celebrações</span><span class="meta-value">9 · 11 a 28 out/2026</span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-inner">
+      <aside class="recado" aria-label="Recado da Coordenação">
+        <span class="recado-eyebrow">✠ Recado da Coordenação</span>
+        <h2>Outubro, mês da fé e da missão</h2>
+        <p>Outubro é um mês especial para nossa caminhada de fé. Inspirados por <strong>São Francisco de Assis</strong>, seguimos servindo com alegria, simplicidade e fraternidade, enquanto a Igreja nos convida a celebrar tantos santos e santas que testemunharam o Evangelho com suas vidas.</p>
+        <p>Neste <strong>Mês Missionário</strong>, que cada celebração e cada serviço dos MESCE renovem em nós o compromisso de levar Cristo aos irmãos. Que <strong>Nossa Senhora Aparecida, Padroeira do Brasil</strong>, e todos os santos celebrados neste mês intercedam por nossa comunidade e por nossa missão.</p>
+      </aside>
+      <div class="section-heading">
+        <div><h2>Agenda por celebração</h2><p id="agendaCount">9 celebrações · 24 escalas</p></div>
+      </div>
+      <div class="load-error" id="loadError" role="alert"></div>
+      <nav class="day-nav" id="dayNav" aria-label="Navegação pelas celebrações"><button class="active" data-sel="all">Todas</button><button data-sel="c1791390032559">11/10 08h</button><button data-sel="c1791390189354">11/10 19h</button><button data-sel="c1791390539833">14/10 19h</button><button data-sel="c1791390719820">18/10 08h</button><button data-sel="c1791390931745">18/10 19h</button><button data-sel="c1791391201760">21/10 19h</button><button data-sel="c1791393779453">25/10 08h</button><button data-sel="c1791393968185">25/10 19h</button><button data-sel="c1791394075555">28/10 19h</button></nav>
+      <section class="schedule" id="schedule" aria-label="Agenda de outubro de 2026" aria-live="polite">
+<article class="day-card" id="cel-c1791390032559" data-id="c1791390032559" data-search="11 de outubro domingo 08:00 josé airton sede da paróquia lucianny sede da paróquia"><header class="day-header"><div class="day-number"><small>11</small>OUT</div><div><h3 class="day-title">11 de outubro</h3><p class="day-date">Domingo</p></div><div class="weekday">Santa Missa · 08:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/jose-airton.png" alt="Foto de José Airton" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">José Airton</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/lucianny.png" alt="Foto de Lucianny" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Lucianny</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">2 ministros</span><span class="mass">Santa Missa · 08:00</span></footer></article>
+<article class="day-card" id="cel-c1791390189354" data-id="c1791390189354" data-search="11 de outubro domingo 19:00 francisca chagas sede da paróquia natanael sede da paróquia francisca maria sede da paróquia maria odete sede da paróquia"><header class="day-header"><div class="day-number"><small>11</small>OUT</div><div><h3 class="day-title">11 de outubro</h3><p class="day-date">Domingo</p></div><div class="weekday">Santa Missa · 19:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/francisca-chagas.webp" alt="Foto de Francisca Chagas" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Francisca Chagas</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/natanael.webp" alt="Foto de Natanael" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Natanael</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/francisca-maria.webp" alt="Foto de Francisca Maria" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Francisca Maria</span><span class="assignment-community">Sede da Paróquia · patio</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/maria-odete.webp" alt="Foto de Maria Odete" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Maria Odete</span><span class="assignment-community">Sede da Paróquia · patio</span></div></div></div></div><footer class="day-footer"><span class="total">4 ministros</span><span class="mass">Santa Missa · 19:00</span></footer></article>
+<article class="day-card" id="cel-c1791390539833" data-id="c1791390539833" data-search="14 de outubro quarta-feira 19:00 kelma sede da paróquia alice moura sede da paróquia"><header class="day-header"><div class="day-number"><small>14</small>OUT</div><div><h3 class="day-title">14 de outubro</h3><p class="day-date">Quarta-feira</p></div><div class="weekday">Santa Missa · 19:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/kelma.webp" alt="Foto de Kelma" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Kelma</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/alice-moura.png" alt="Foto de Alice Moura" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Alice Moura</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">2 ministros</span><span class="mass">Santa Missa · 19:00</span></footer></article>
+<article class="day-card" id="cel-c1791390719820" data-id="c1791390719820" data-search="18 de outubro domingo 08:00 lucélia sede da paróquia kassiana sede da paróquia"><header class="day-header"><div class="day-number"><small>18</small>OUT</div><div><h3 class="day-title">18 de outubro</h3><p class="day-date">Domingo</p></div><div class="weekday">Santa Missa · 08:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/lucelia.webp" alt="Foto de Lucélia" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Lucélia</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/kassiana.png" alt="Foto de Kassiana" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Kassiana</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">2 ministros</span><span class="mass">Santa Missa · 08:00</span></footer></article>
+<article class="day-card" id="cel-c1791390931745" data-id="c1791390931745" data-search="18 de outubro domingo 19:00 valneide sede da paróquia gabriely sede da paróquia lany sede da paróquia maria antônia sede da paróquia"><header class="day-header"><div class="day-number"><small>18</small>OUT</div><div><h3 class="day-title">18 de outubro</h3><p class="day-date">Domingo</p></div><div class="weekday">Santa Missa · 19:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/valneide.webp" alt="Foto de Valneide" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Valneide</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/gabriely.webp" alt="Foto de Gabriely" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Gabriely</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/lany.webp" alt="Foto de Lany" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Lany</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/maria-antonia.webp" alt="Foto de Maria Antônia" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Maria Antônia</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">4 ministros</span><span class="mass">Santa Missa · 19:00</span></footer></article>
+<article class="day-card" id="cel-c1791391201760" data-id="c1791391201760" data-search="21 de outubro quarta-feira 19:00 kelma sede da paróquia neusinha sede da paróquia"><header class="day-header"><div class="day-number"><small>21</small>OUT</div><div><h3 class="day-title">21 de outubro</h3><p class="day-date">Quarta-feira</p></div><div class="weekday">Santa Missa · 19:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/kelma.webp" alt="Foto de Kelma" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Kelma</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/neusinha.webp" alt="Foto de Neusinha" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Neusinha</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">2 ministros</span><span class="mass">Santa Missa · 19:00</span></footer></article>
+<article class="day-card" id="cel-c1791393779453" data-id="c1791393779453" data-search="25 de outubro domingo 08:00 jhonathas sede da paróquia alzeni sede da paróquia"><header class="day-header"><div class="day-number"><small>25</small>OUT</div><div><h3 class="day-title">25 de outubro</h3><p class="day-date">Domingo</p></div><div class="weekday">Santa Missa · 08:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/jhonathas.png" alt="Foto de Jhonathas" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Jhonathas</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/alzeni.png" alt="Foto de Alzeni" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Alzeni</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">2 ministros</span><span class="mass">Santa Missa · 08:00</span></footer></article>
+<article class="day-card" id="cel-c1791393968185" data-id="c1791393968185" data-search="25 de outubro domingo 19:00 edilane sede da paróquia jonas sede da paróquia paulo sede da paróquia rosa sede da paróquia"><header class="day-header"><div class="day-number"><small>25</small>OUT</div><div><h3 class="day-title">25 de outubro</h3><p class="day-date">Domingo</p></div><div class="weekday">Santa Missa · 19:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/edilane.webp" alt="Foto de Edilane" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Edilane</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/jonas.png" alt="Foto de Jonas" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Jonas</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/paulo.webp" alt="Foto de Paulo" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Paulo</span><span class="assignment-community">Sede da Paróquia · patio</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/rosa.webp" alt="Foto de Rosa" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Rosa</span><span class="assignment-community">Sede da Paróquia · patio</span></div></div></div></div><footer class="day-footer"><span class="total">4 ministros</span><span class="mass">Santa Missa · 19:00</span></footer></article>
+<article class="day-card" id="cel-c1791394075555" data-id="c1791394075555" data-search="28 de outubro quarta-feira 19:00 marcos mateus sede da paróquia alice rocha sede da paróquia"><header class="day-header"><div class="day-number"><small>28</small>OUT</div><div><h3 class="day-title">28 de outubro</h3><p class="day-date">Quarta-feira</p></div><div class="weekday">Santa Missa · 19:00</div></header><div class="assignments"><div class="assignment-pair"><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/marcos-mateus.png" alt="Foto de Marcos Mateus" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Marcos Mateus</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div><div class="assignment has-photo"><img class="assignment-photo" loading="lazy" src="faces/alice-rocha.png" alt="Foto de Alice Rocha" onerror="this.remove();this.parentElement.classList.remove('has-photo');this.parentElement.classList.add('no-photo')" /><div><span class="assignment-name">Alice Rocha</span><span class="assignment-community">Sede da Paróquia · altar</span></div></div></div></div><footer class="day-footer"><span class="total">2 ministros</span><span class="mass">Santa Missa · 19:00</span></footer></article>
+      </section>
+      <div class="empty" id="empty">Não encontramos ninguém com esse termo. Tente outro nome.</div>
+    </div>
+  </main>
+
+  <footer><div class="main-inner"><div class="footer-row"><p>Paróquia São Francisco de Assis · Junco, Picos-PI</p><p>Agenda MESCE · Outubro 2026</p></div></div></footer>
+
+  <script>
+    'use strict';
+    const AGENDA_EMBUTIDA = [{"id": "c1791390032559", "data": "2026-10-11", "horario": "08:00", "nome": "Santa Missa", "dia": 11, "dataExt": "11 de outubro", "weekday": "Domingo", "ministros": [{"nome": "José Airton", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/jose-airton.png", "id": "m44"}, {"nome": "Lucianny", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/lucianny.png", "id": "m52"}]}, {"id": "c1791390189354", "data": "2026-10-11", "horario": "19:00", "nome": "Santa Missa", "dia": 11, "dataExt": "11 de outubro", "weekday": "Domingo", "ministros": [{"nome": "Francisca Chagas", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/francisca-chagas.webp", "id": "m30"}, {"nome": "Natanael", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/natanael.webp", "id": "m73"}, {"nome": "Francisca Maria", "comunidade": "Sede da Paróquia", "local": "patio", "foto": "faces/francisca-maria.webp", "id": "m31"}, {"nome": "Maria Odete", "comunidade": "Sede da Paróquia", "local": "patio", "foto": "faces/maria-odete.webp", "id": "m68"}]}, {"id": "c1791390539833", "data": "2026-10-14", "horario": "19:00", "nome": "Santa Missa", "dia": 14, "dataExt": "14 de outubro", "weekday": "Quarta-feira", "ministros": [{"nome": "Kelma", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/kelma.webp", "id": "m48"}, {"nome": "Alice Moura", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/alice-moura.png", "id": "m3"}]}, {"id": "c1791390719820", "data": "2026-10-18", "horario": "08:00", "nome": "Santa Missa", "dia": 18, "dataExt": "18 de outubro", "weekday": "Domingo", "ministros": [{"nome": "Lucélia", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/lucelia.webp", "id": "m51"}, {"nome": "Kassiana", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/kassiana.png", "id": "m47"}]}, {"id": "c1791390931745", "data": "2026-10-18", "horario": "19:00", "nome": "Santa Missa", "dia": 18, "dataExt": "18 de outubro", "weekday": "Domingo", "ministros": [{"nome": "Valneide", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/valneide.webp", "id": "m88"}, {"nome": "Gabriely", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/gabriely.webp", "id": "m35"}, {"nome": "Lany", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/lany.webp", "id": "m50"}, {"nome": "Maria Antônia", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/maria-antonia.webp", "id": "m59"}]}, {"id": "c1791391201760", "data": "2026-10-21", "horario": "19:00", "nome": "Santa Missa", "dia": 21, "dataExt": "21 de outubro", "weekday": "Quarta-feira", "ministros": [{"nome": "Kelma", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/kelma.webp", "id": "m48"}, {"nome": "Neusinha", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/neusinha.webp", "id": "m74"}]}, {"id": "c1791393779453", "data": "2026-10-25", "horario": "08:00", "nome": "Santa Missa", "dia": 25, "dataExt": "25 de outubro", "weekday": "Domingo", "ministros": [{"nome": "Jhonathas", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/jhonathas.png", "id": "m41"}, {"nome": "Alzeni", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/alzeni.png", "id": "m5"}]}, {"id": "c1791393968185", "data": "2026-10-25", "horario": "19:00", "nome": "Santa Missa", "dia": 25, "dataExt": "25 de outubro", "weekday": "Domingo", "ministros": [{"nome": "Edilane", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/edilane.webp", "id": "m20"}, {"nome": "Jonas", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/jonas.png", "id": "m43"}, {"nome": "Paulo", "comunidade": "Sede da Paróquia", "local": "patio", "foto": "faces/paulo.webp", "id": "m76"}, {"nome": "Rosa", "comunidade": "Sede da Paróquia", "local": "patio", "foto": "faces/rosa.webp", "id": "m80"}]}, {"id": "c1791394075555", "data": "2026-10-28", "horario": "19:00", "nome": "Santa Missa", "dia": 28, "dataExt": "28 de outubro", "weekday": "Quarta-feira", "ministros": [{"nome": "Marcos Mateus", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/marcos-mateus.png", "id": "m58"}, {"nome": "Alice Rocha", "comunidade": "Sede da Paróquia", "local": "altar", "foto": "faces/alice-rocha.png", "id": "m4"}]}];
+    const JSON_URL = 'agendamin-2026-10-07.json';
+    let scheduleData = [];
+
+    function shortLabel(c){
+      const iso = (c && (c.dataISO || c.data)) || '';
+      const p = String(iso).split('-');
+      const hm = String((c && c.horario) || ''); const h = hm.endsWith(':00') ? hm.slice(0,-3)+'h' : hm.replace(':','h');
+      if(p.length===3) return p[2]+'/'+p[1]+' '+h;
+      return h || 'Celebração';
+    }
+
+    function resolveParaCard(c){
+      const n = (c.ministros||[]).length;
+      const total = n + (n===1?' ministro':' ministros');
+      return {
+        id: c.id, data: c.data, dataISO: c.data, horario: c.horario, nome: c.nome || 'Santa Missa',
+        num: String(c.dia), date: c.dataExt, weekday: c.weekday,
+        note: (c.nome||'Santa Missa') + ' · ' + c.horario,
+        mass: (c.nome||'Santa Missa') + ' · ' + c.horario,
+        total: total, ministros: c.ministros || []
+      };
+    }
+
+    function cardHTML(day){
+      const mins = day.ministros.map(mn=>{
+        const sub = (mn.comunidade||'') + (mn.local ? ' · '+mn.local : '');
+        const foto = mn.foto ? '<img class="assignment-photo" loading="lazy" src="'+mn.foto.replace(/"/g,'')+'" alt="Foto de '+mn.nome.replace(/"/g,'')+'" />' : '';
+        return '<div class="assignment '+(mn.foto?'has-photo':'no-photo')+'">'+foto+'<div><span class="assignment-name"></span><span class="assignment-community"></span></div></div>';
+      }).join('|');
+      return mins;
+    }
+
+    function applyFilter(){
+      const sel = document.querySelector('#dayNav button.active')?.dataset.sel || 'all';
+      let vis = 0;
+      document.querySelectorAll('#schedule .day-card').forEach(card=>{
+        const show = sel==='all' || card.dataset.id===sel;
+        card.classList.toggle('is-hidden', !show);
+        if(show) vis++;
+      });
+      document.getElementById('empty').classList.toggle('visible', vis===0);
+    }
+
+    function hydrateFromData(){
+      // Reconstrói cards a partir de scheduleData (mesmo HTML do pré-render).
+      // Só troca o DOM após montar tudo com sucesso — se falhar, mantém o estático.
+      const sec = document.getElementById('schedule');
+      const tmp = document.createElement('div');
+      scheduleData.forEach(day=>{
+        const art = document.createElement('article');
+        art.className='day-card'; art.id='cel-'+day.id; art.dataset.id=day.id;
+        art.dataset.search=(day.date+' '+day.weekday+' '+day.horario+' '+day.ministros.map(m=>m.nome+' '+m.comunidade).join(' ')).toLocaleLowerCase('pt-BR');
+        art.innerHTML =
+          '<header class="day-header"><div class="day-number"><small>'+day.num+'</small>OUT</div>'+
+          '<div><h3 class="day-title">'+day.date+'</h3><p class="day-date">'+day.weekday+'</p></div>'+
+          '<div class="weekday">'+day.note+'</div></header>'+
+          '<div class="assignments"></div>'+
+          '<footer class="day-footer"><span class="total">'+day.total+'</span><span class="mass">'+day.mass+'</span></footer>';
+        const box=art.querySelector('.assignments');
+        for(let i=0;i<day.ministros.length;i+=2){
+          const pair=document.createElement('div'); pair.className='assignment-pair';
+          day.ministros.slice(i,i+2).forEach(mn=>{
+            const it=document.createElement('div');
+            const sub=(mn.comunidade||'')+(mn.local?' · '+mn.local:'');
+            if(mn.foto){
+              it.className='assignment has-photo';
+              it.innerHTML='<img class="assignment-photo" loading="lazy" alt="" /><div><span class="assignment-name"></span><span class="assignment-community"></span></div>';
+              const img=it.querySelector('img'); img.src=mn.foto; img.alt='Foto de '+mn.nome;
+              img.addEventListener('error',()=>{ img.remove(); it.classList.remove('has-photo'); it.classList.add('no-photo'); });
+            } else {
+              it.className='assignment no-photo';
+              it.innerHTML='<div><span class="assignment-name"></span><span class="assignment-community"></span></div>';
+            }
+            it.querySelector('.assignment-name').textContent=mn.nome;
+            it.querySelector('.assignment-community').textContent=sub;
+            pair.appendChild(it);
+          });
+          box.appendChild(pair);
+        }
+        tmp.appendChild(art);
+      });
+      sec.replaceChildren(...tmp.childNodes);
+      document.getElementById('agendaCount').textContent = scheduleData.length + ' celebrações · ' + scheduleData.reduce((s,d)=>s+d.ministros.length,0) + ' escalas';
+    }
+
+    function buildNav(){
+      const nav=document.getElementById('dayNav');
+      nav.innerHTML='';
+      const mk=(val,label)=>{
+        const b=document.createElement('button');
+        b.type='button'; b.dataset.sel=val; b.textContent=label;
+        if(val==='all') b.classList.add('active');
+        b.addEventListener('click',()=>{
+          nav.querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));
+          applyFilter();
+          if(val!=='all') document.getElementById('cel-'+val)?.scrollIntoView?.({behavior:'smooth',block:'start'});
+        });
+        nav.appendChild(b);
+      };
+      mk('all','Todas');
+      scheduleData.forEach(c=> mk(c.id, shortLabel(c)));
+    }
+
+    function showError(msg){
+      const el=document.getElementById('loadError');
+      el.textContent=msg; el.classList.add('visible');
+    }
+
+    async function carregar(){
+      try {
+        if(!Array.isArray(AGENDA_EMBUTIDA) || !AGENDA_EMBUTIDA.length) throw new Error('AGENDA_EMBUTIDA vazia');
+        scheduleData = AGENDA_EMBUTIDA.map(resolveParaCard);
+        buildNav();
+        hydrateFromData();
+        applyFilter();
+      } catch(e){
+        showError('Falha ao montar agenda embutida: '+e.message+'. Exibindo conteúdo estático.');
+        return;
+      }
+      try {
+        const r = await fetch(JSON_URL, {cache:'no-store'});
+        if(!r.ok) throw new Error('HTTP '+r.status);
+        const j = await r.json();
+        if(!j || !Array.isArray(j.celebracoes) || !Array.isArray(j.ministros)) throw new Error('JSON sem celebracoes/ministros');
+        const byId = Object.fromEntries(j.ministros.map(m=>[m.id,m]));
+        const fotoBase = Object.fromEntries(AGENDA_EMBUTIDA.flatMap(a=>a.ministros).map(m=>[m.id,m.foto]));
+        const conv = j.celebracoes.map(c=>{
+          const dt = new Date(c.data+'T12:00:00');
+          if(isNaN(dt)) throw new Error('data inválida: '+c.data);
+          const MESES=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+          const SEM=['Domingo','Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado'];
+          return {
+            id:c.id, data:c.data, horario:c.horario, nome:c.nome||'Santa Missa',
+            dia:dt.getDate(), dataExt: dt.getDate()+' de '+MESES[dt.getMonth()], weekday: SEM[dt.getDay()],
+            ministros: [...(c.ministros||[])].sort((a,b)=>(a.ordem||0)-(b.ordem||0)).map(x=>{
+              const info=byId[x.ministroId]||{};
+              return {nome:info.nomeExibicao||x.ministroId, comunidade:info.comunidade||'', local:x.local||'', foto:fotoBase[x.ministroId]||null, id:x.ministroId};
+            })
+          };
+        }).sort((a,b)=>String(a.data+a.horario).localeCompare(String(b.data+b.horario)));
+        if(conv.length){
+          scheduleData = conv.map(resolveParaCard);
+          buildNav(); hydrateFromData(); applyFilter();
+        }
+      } catch(e){
+      }
+    }
+
+    carregar();
+
+  </script>
+</body>
+</html>

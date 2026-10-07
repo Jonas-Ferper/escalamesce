@@ -1,0 +1,951 @@
+{
+  "ministros": [
+    {
+      "id": "m1",
+      "nomeExibicao": "Albertina",
+      "nomeCompleto": "Albertina Maria de Sousa Filha",
+      "comunidade": "Riacho Vermelho",
+      "foto": "cadastro:1781230763357-albertina.png",
+      "ativo": true
+    },
+    {
+      "id": "m2",
+      "nomeExibicao": "Alexsandra",
+      "nomeCompleto": "Maria Alexsandra Leal Almondes",
+      "comunidade": "Lagoa Grande",
+      "foto": "cadastro:1786391592784-chatgpt-image-14-de-jul.-de-2026,-15_08_01.png",
+      "ativo": true
+    },
+    {
+      "id": "m3",
+      "nomeExibicao": "Alice Moura",
+      "nomeCompleto": "Alice Maria de Moura Santos",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1781230785640-alice-moura.png",
+      "ativo": true
+    },
+    {
+      "id": "m4",
+      "nomeExibicao": "Alice Rocha",
+      "nomeCompleto": "Alice Eulália Rocha Costa",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1781230794016-alice-rocha.png",
+      "ativo": true
+    },
+    {
+      "id": "m5",
+      "nomeExibicao": "Alzeni",
+      "nomeCompleto": "Maria Alzeni Nobre de Sousa",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1786223734754-alzenir.png",
+      "ativo": true
+    },
+    {
+      "id": "m6",
+      "nomeExibicao": "Carol",
+      "nomeCompleto": "Ana Carolina de Oliveira Carvalho",
+      "comunidade": "Samambaia II",
+      "foto": "cadastro:1790528775319-carol.png",
+      "ativo": true
+    },
+    {
+      "id": "m7",
+      "nomeExibicao": "Anaíde",
+      "nomeCompleto": "Anaíde Maria Luz Carvalho",
+      "comunidade": "Catavento",
+      "foto": "cadastro:anaide.webp",
+      "ativo": true
+    },
+    {
+      "id": "m8",
+      "nomeExibicao": "Ana Joaquina",
+      "nomeCompleto": "Ana Joaquina de Oliveira",
+      "comunidade": "Riacho Vermelho",
+      "foto": "cadastro:ana-joaquina.webp",
+      "ativo": true
+    },
+    {
+      "id": "m9",
+      "nomeExibicao": "Ana Lúcia",
+      "nomeCompleto": "Ana Lúcia de Melo",
+      "comunidade": "Pantanal",
+      "foto": "cadastro:ana-lucia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m10",
+      "nomeExibicao": "Auristela",
+      "nomeCompleto": "Auristela de Sousa Araújo",
+      "comunidade": "Condurú",
+      "foto": "cadastro:1786223754742-chatgpt-image-14-de-jul.-de-2026,-15_00_32.png",
+      "ativo": true
+    },
+    {
+      "id": "m11",
+      "nomeExibicao": "Bernadete",
+      "nomeCompleto": "Maria Bernadete de Carvalho",
+      "comunidade": "Cohab",
+      "foto": "cadastro:bernadete.webp",
+      "ativo": true
+    },
+    {
+      "id": "m12",
+      "nomeExibicao": "Bruna",
+      "nomeCompleto": "Bruna de Sousa Barros",
+      "comunidade": "Cipaúba",
+      "foto": "cadastro:bruna.webp",
+      "ativo": true
+    },
+    {
+      "id": "m13",
+      "nomeExibicao": "Celsa",
+      "nomeCompleto": "Celsa Jayce Teotônio",
+      "comunidade": "Pedrinhas",
+      "foto": "cadastro:1786414314435-chatgpt-image-10-de-ago.-de-2026,-23_02_44.png",
+      "ativo": true
+    },
+    {
+      "id": "m14",
+      "nomeExibicao": "Cléria",
+      "nomeCompleto": "Cléria Arrais de Moraes Monte",
+      "comunidade": "Cohab",
+      "foto": "cadastro:1786414893671-chatgpt-image-10-de-ago.-de-2026,-22_41_35.png",
+      "ativo": true
+    },
+    {
+      "id": "m15",
+      "nomeExibicao": "Cruzinha",
+      "nomeCompleto": "Maria da Cruz de Sousa Silva",
+      "comunidade": "Catavento",
+      "foto": "cadastro:cruzinha.webp",
+      "ativo": true
+    },
+    {
+      "id": "m16",
+      "nomeExibicao": "Dalvina",
+      "nomeCompleto": "Dalvina Gomes de Sousa",
+      "comunidade": "Parque de Exposição",
+      "foto": "cadastro:dalvina.webp",
+      "ativo": true
+    },
+    {
+      "id": "m17",
+      "nomeExibicao": "Delaíde",
+      "nomeCompleto": "Delaíde Maria da Conceição",
+      "comunidade": "Parque de Exposição",
+      "foto": "cadastro:delaide.webp",
+      "ativo": true
+    },
+    {
+      "id": "m18",
+      "nomeExibicao": "Diuva",
+      "nomeCompleto": "Diuva Santos de Araújo Silva",
+      "comunidade": "Riacho Vermelho",
+      "foto": "cadastro:dilva.webp",
+      "ativo": true
+    },
+    {
+      "id": "m19",
+      "nomeExibicao": "Doralice",
+      "nomeCompleto": "Doralice Leonília da Cunha Fernandes",
+      "comunidade": "Parque de Exposição",
+      "foto": "cadastro:doralice.webp",
+      "ativo": true
+    },
+    {
+      "id": "m20",
+      "nomeExibicao": "Edilane",
+      "nomeCompleto": "Edilane Sousa Moura Pereira",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:edilane.webp",
+      "ativo": true
+    },
+    {
+      "id": "m21",
+      "nomeExibicao": "Edite",
+      "nomeCompleto": "Edite Francisca de Almondes",
+      "comunidade": "Malhada Grande",
+      "foto": "cadastro:edite.webp",
+      "ativo": true
+    },
+    {
+      "id": "m22",
+      "nomeExibicao": "Edna",
+      "nomeCompleto": "Edna dos Santos Sousa",
+      "comunidade": "Pedrinhas",
+      "foto": "cadastro:edna.webp",
+      "ativo": true
+    },
+    {
+      "id": "m23",
+      "nomeExibicao": "Eliana Luz",
+      "nomeCompleto": "Eliana de Sousa Luz",
+      "comunidade": "Ponta d’Água",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m24",
+      "nomeExibicao": "Eliana",
+      "nomeCompleto": "Maria Eliana Costa Luz",
+      "comunidade": "Catavento",
+      "foto": "cadastro:1786414772701-chatgpt-image-10-de-ago.-de-2026,-22_47_10.png",
+      "ativo": true
+    },
+    {
+      "id": "m25",
+      "nomeExibicao": "Eliane",
+      "nomeCompleto": "Eliane Santana Oliveira",
+      "comunidade": "Jardim Natal",
+      "foto": "cadastro:1786391547433-chatgpt-image-14-de-jul.-de-2026,-15_25_30.png",
+      "ativo": true
+    },
+    {
+      "id": "m26",
+      "nomeExibicao": "Erizete",
+      "nomeCompleto": "Erizete Lima Pereira",
+      "comunidade": "Cohab",
+      "foto": "cadastro:erizete.webp",
+      "ativo": true
+    },
+    {
+      "id": "m27",
+      "nomeExibicao": "Francinete",
+      "nomeCompleto": "Francinete Alves Ferreira",
+      "comunidade": "Catavento",
+      "foto": "cadastro:francinete.webp",
+      "ativo": true
+    },
+    {
+      "id": "m28",
+      "nomeExibicao": "Francisca Adelina",
+      "nomeCompleto": "Francisca Adelina Santos",
+      "comunidade": "Pedrinhas",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m29",
+      "nomeExibicao": "Francisca Angelita",
+      "nomeCompleto": "Francisca Angelita da Costa Oliveira",
+      "comunidade": "Morro da AABB",
+      "foto": "cadastro:francisca-angelita.webp",
+      "ativo": true
+    },
+    {
+      "id": "m30",
+      "nomeExibicao": "Francisca Chagas",
+      "nomeCompleto": "Francisca das Chagas Araújo Moura",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:francisca-das-chagas.webp",
+      "ativo": true
+    },
+    {
+      "id": "m31",
+      "nomeExibicao": "Francisca Maria",
+      "nomeCompleto": "Francisca Maria de Sousa Silva",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:francisca-maria.webp",
+      "ativo": true
+    },
+    {
+      "id": "m32",
+      "nomeExibicao": "Francisca Matias",
+      "nomeCompleto": "Francisca Matias dos Santos",
+      "comunidade": "Cohab",
+      "foto": "cadastro:1786391756580-chatgpt-image-14-de-jul.-de-2026,-14_40_42.png",
+      "ativo": true
+    },
+    {
+      "id": "m33",
+      "nomeExibicao": "Francisleide",
+      "nomeCompleto": "Francisleide Guimarães da Silva",
+      "comunidade": "Sede da Paróquia",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m34",
+      "nomeExibicao": "Gabriela",
+      "nomeCompleto": "Maria Gabriela Almondes Rodrigues",
+      "comunidade": "Morrinhos",
+      "foto": "cadastro:1786223989930-chatgpt-image-14-de-jul.-de-2026,-15_28_11.png",
+      "ativo": true
+    },
+    {
+      "id": "m35",
+      "nomeExibicao": "Gabriely",
+      "nomeCompleto": "Gabriely de Moura Rocha",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:gabriely.webp",
+      "ativo": true
+    },
+    {
+      "id": "m36",
+      "nomeExibicao": "Glécia",
+      "nomeCompleto": "Glécia Maria de Oliveira",
+      "comunidade": "Pedrinhas",
+      "foto": "cadastro:glecia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m37",
+      "nomeExibicao": "Hortência",
+      "nomeCompleto": "Hortência de Moura Costa",
+      "comunidade": "Paraibinha",
+      "foto": "cadastro:hortencia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m38",
+      "nomeExibicao": "Iraci",
+      "nomeCompleto": "Iraci Maria de Macêdo",
+      "comunidade": "Parque de Exposição",
+      "foto": "cadastro:iraci.webp",
+      "ativo": true
+    },
+    {
+      "id": "m39",
+      "nomeExibicao": "Islane",
+      "nomeCompleto": "Maria Islane de Moura Silva",
+      "comunidade": "Lagoa Grande",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m40",
+      "nomeExibicao": "Ivanete",
+      "nomeCompleto": "Ivanete Rosa Leal",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:ivonete.webp",
+      "ativo": true
+    },
+    {
+      "id": "m41",
+      "nomeExibicao": "Jhonathas",
+      "nomeCompleto": "Jhonathas Modesto Marques Oliveira",
+      "comunidade": "Sede da Paróquia",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m42",
+      "nomeExibicao": "Jocilene",
+      "nomeCompleto": "Jocilene Francisca da Silva",
+      "comunidade": "Pedrinhas",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m43",
+      "nomeExibicao": "Jonas",
+      "nomeCompleto": "Jonas Fernandes Pereira",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1786224159926-jonas.png",
+      "ativo": true
+    },
+    {
+      "id": "m44",
+      "nomeExibicao": "José Airton",
+      "nomeCompleto": "José Airton da Rocha Júnior",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1786414374669-chatgpt-image-10-de-ago.-de-2026,-23_04_22.png",
+      "ativo": true
+    },
+    {
+      "id": "m45",
+      "nomeExibicao": "Joseane",
+      "nomeCompleto": "Joseane da Silva Costa",
+      "comunidade": "Morrinhos",
+      "foto": "cadastro:1786225536900-chatgpt-image-8-de-ago.-de-2026,-18_45_25.png",
+      "ativo": true
+    },
+    {
+      "id": "m46",
+      "nomeExibicao": "Joselita",
+      "nomeCompleto": "Joselita Francisca de Almondes",
+      "comunidade": "Bugi dos Almondes",
+      "foto": "cadastro:1786224133630-chatgpt-image-14-de-jul.-de-2026,-15_20_28.png",
+      "ativo": true
+    },
+    {
+      "id": "m47",
+      "nomeExibicao": "Kassiana",
+      "nomeCompleto": "Kassiana de Fátima Meneses de Aquino Luz",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1790130589469-kassiana.png",
+      "ativo": true
+    },
+    {
+      "id": "m48",
+      "nomeExibicao": "Kelma",
+      "nomeCompleto": "Kelma Maria Rocha Costa",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:kelma.webp",
+      "ativo": true
+    },
+    {
+      "id": "m49",
+      "nomeExibicao": "Lairson",
+      "nomeCompleto": "Lairson Florêncio do Nascimento",
+      "comunidade": "Pedrinhas",
+      "foto": "cadastro:1786225139995-chatgpt-image-8-de-ago.-de-2026,-18_38_28.png",
+      "ativo": true
+    },
+    {
+      "id": "m50",
+      "nomeExibicao": "Lany",
+      "nomeCompleto": "Wenderlany Maria Vieira de Sousa",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1781287507485-wenderlany.webp",
+      "ativo": true
+    },
+    {
+      "id": "m51",
+      "nomeExibicao": "Lucélia",
+      "nomeCompleto": "Lucélia de Moura Rocha Barbosa",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1781287664578-lucelia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m52",
+      "nomeExibicao": "Lucianny",
+      "nomeCompleto": "Maria Lucianny Lima Barbosa",
+      "comunidade": "Sede da Paróquia",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m53",
+      "nomeExibicao": "Lucinalva",
+      "nomeCompleto": "Lucinalva Gomes Barbosa",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:nalva.webp",
+      "ativo": true
+    },
+    {
+      "id": "m54",
+      "nomeExibicao": "Luísa",
+      "nomeCompleto": "Luísa de Sousa Teixeira",
+      "comunidade": "Paraibinha",
+      "foto": "cadastro:luisa-teixeira.webp",
+      "ativo": true
+    },
+    {
+      "id": "m55",
+      "nomeExibicao": "Luiz",
+      "nomeCompleto": "Luiz Nogueira Sobrinho",
+      "comunidade": "Parque de Exposição",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m56",
+      "nomeExibicao": "Magda",
+      "nomeCompleto": "Magdala Holanda Lima Moreira",
+      "comunidade": "Jardim Natal",
+      "foto": "cadastro:magda.webp",
+      "ativo": true
+    },
+    {
+      "id": "m57",
+      "nomeExibicao": "Marciano",
+      "nomeCompleto": "Marciano de Sousa Oliveira",
+      "comunidade": "Morro da AABB",
+      "foto": "cadastro:1786414458103-chatgpt-image-10-de-ago.-de-2026,-22_54_54.png",
+      "ativo": true
+    },
+    {
+      "id": "m58",
+      "nomeExibicao": "Marcos Mateus",
+      "nomeCompleto": "Marcos Mateus Noronha Rocha",
+      "comunidade": "Sede da Paróquia",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m59",
+      "nomeExibicao": "Maria Antônia",
+      "nomeCompleto": "Maria Antônia Costa Luz",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:maria-antonia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m60",
+      "nomeExibicao": "Maria Betânia",
+      "nomeCompleto": "Maria Betânia de Alencar Rodrigues",
+      "comunidade": "Jardim Natal",
+      "foto": "cadastro:betania.webp",
+      "ativo": true
+    },
+    {
+      "id": "m61",
+      "nomeExibicao": "Maria Conceição",
+      "nomeCompleto": "Maria da Conceição Filha Almondes",
+      "comunidade": "Paraibinha",
+      "foto": "cadastro:maria-da-conceicao.webp",
+      "ativo": true
+    },
+    {
+      "id": "m62",
+      "nomeExibicao": "Maria Fátima",
+      "nomeCompleto": "Maria Fátima do Nascimento",
+      "comunidade": "Cohab",
+      "foto": "cadastro:maria-de-fatima.webp",
+      "ativo": true
+    },
+    {
+      "id": "m63",
+      "nomeExibicao": "Maria Joaquina",
+      "nomeCompleto": "Maria Joaquina de Holanda Sousa",
+      "comunidade": "Samambaia I",
+      "foto": "cadastro:1786414689243-chatgpt-image-10-de-ago.-de-2026,-22_52_02.png",
+      "ativo": true
+    },
+    {
+      "id": "m64",
+      "nomeExibicao": "Maria José",
+      "nomeCompleto": "Maria José de Melo",
+      "comunidade": "Pantanal",
+      "foto": "cadastro:maria-jose.webp",
+      "ativo": true
+    },
+    {
+      "id": "m65",
+      "nomeExibicao": "Maria Lêda",
+      "nomeCompleto": "Maria Lêda de Arruda",
+      "comunidade": "Morrinhos",
+      "foto": "cadastro:1781287270481-zilda.webp",
+      "ativo": true
+    },
+    {
+      "id": "m66",
+      "nomeExibicao": "Maria Leni",
+      "nomeCompleto": "Maria Leni Luz de Sousa Araújo",
+      "comunidade": "Valparaíso",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m67",
+      "nomeExibicao": "Maria Luzia",
+      "nomeCompleto": "Maria Luzia Almondes",
+      "comunidade": "Bugi dos Almondes",
+      "foto": "cadastro:maria-luzia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m68",
+      "nomeExibicao": "Maria Odete",
+      "nomeCompleto": "Maria Odete de Sousa Luz",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:odete.webp",
+      "ativo": true
+    },
+    {
+      "id": "m69",
+      "nomeExibicao": "Maria Silva",
+      "nomeCompleto": "Maria Silva Martins",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:1781286932921-maria-silva.webp",
+      "ativo": true
+    },
+    {
+      "id": "m70",
+      "nomeExibicao": "Marinalda",
+      "nomeCompleto": "Marinalda de Moura Sousa",
+      "comunidade": "Morrinhos",
+      "foto": "cadastro:marinalda.webp",
+      "ativo": true
+    },
+    {
+      "id": "m71",
+      "nomeExibicao": "Marlene",
+      "nomeCompleto": "Marlene Feitosa de Moura Santos",
+      "comunidade": "DNER",
+      "foto": "cadastro:marlene.webp",
+      "ativo": true
+    },
+    {
+      "id": "m72",
+      "nomeExibicao": "Mykael",
+      "nomeCompleto": "Mykael Moura Menezes",
+      "comunidade": "Lagoa Grande",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m73",
+      "nomeExibicao": "Natanael",
+      "nomeCompleto": "Natanael José da Silva",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:natanael.webp",
+      "ativo": true
+    },
+    {
+      "id": "m74",
+      "nomeExibicao": "Neusinha",
+      "nomeCompleto": "Maria Neusa de Macêdo Moura (Neusinha)",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:neusinha.webp",
+      "ativo": true
+    },
+    {
+      "id": "m75",
+      "nomeExibicao": "Nina",
+      "nomeCompleto": "Maria Ninaláide Nascimento (Nina)",
+      "comunidade": "Pedrinhas",
+      "foto": "cadastro:nina.webp",
+      "ativo": true
+    },
+    {
+      "id": "m76",
+      "nomeExibicao": "Paulo",
+      "nomeCompleto": "Paulo Borges Leal",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:paulinho.webp",
+      "ativo": true
+    },
+    {
+      "id": "m77",
+      "nomeExibicao": "Rita de Cássia",
+      "nomeCompleto": "Rita de Cássia Sousa Luz",
+      "comunidade": "Ponta d’Água",
+      "foto": "cadastro:rita-de-cassia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m78",
+      "nomeExibicao": "Roberto",
+      "nomeCompleto": "Roberto Andrade da Silva",
+      "comunidade": "Catavento",
+      "foto": "cadastro:roberto.webp",
+      "ativo": true
+    },
+    {
+      "id": "m79",
+      "nomeExibicao": "Rodrigo",
+      "nomeCompleto": "Rodrigo da Silva Matos",
+      "comunidade": "Samambaia I",
+      "foto": "cadastro:1781287346816-rodrigo.webp",
+      "ativo": true
+    },
+    {
+      "id": "m80",
+      "nomeExibicao": "Rosa",
+      "nomeCompleto": "Rosa Maria Leal",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:rosa.webp",
+      "ativo": true
+    },
+    {
+      "id": "m81",
+      "nomeExibicao": "Roselândia",
+      "nomeCompleto": "Roselândia Maria de Moura Fontes",
+      "comunidade": "Samambaia II",
+      "foto": "cadastro:roselandia.webp",
+      "ativo": true
+    },
+    {
+      "id": "m82",
+      "nomeExibicao": "Sandriel",
+      "nomeCompleto": "Sandriel Ferreira de Melo",
+      "comunidade": "Samambaia II",
+      "foto": "cadastro:sandrielmo.webp",
+      "ativo": true
+    },
+    {
+      "id": "m83",
+      "nomeExibicao": "Socorrinha",
+      "nomeCompleto": "Maria do Socorro de Souza Gonzaga Pires",
+      "comunidade": "Cipaúba",
+      "foto": "cadastro:socorrinha.webp",
+      "ativo": true
+    },
+    {
+      "id": "m84",
+      "nomeExibicao": "Socorro Santana",
+      "nomeCompleto": "Maria do Socorro Santana dos Santos",
+      "comunidade": "Cohab",
+      "foto": "cadastro:socorro-santana.webp",
+      "ativo": true
+    },
+    {
+      "id": "m85",
+      "nomeExibicao": "Tereza",
+      "nomeCompleto": "Tereza Daiane da Silva Vieira",
+      "comunidade": "DNER",
+      "foto": "cadastro:1786391713484-chatgpt-image-14-de-jul.-de-2026,-14_44_39.png",
+      "ativo": true
+    },
+    {
+      "id": "m86",
+      "nomeExibicao": "Thaís",
+      "nomeCompleto": "Thaís Aparecida Barros",
+      "comunidade": "Cipaúba",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m87",
+      "nomeExibicao": "Valdeci",
+      "nomeCompleto": "Valdeci Antônia da Costa Campos",
+      "comunidade": "Samambaia I",
+      "foto": "cadastro:1786394227509-chatgpt-image-10-de-ago.-de-2026,-17_34_00.png",
+      "ativo": true
+    },
+    {
+      "id": "m88",
+      "nomeExibicao": "Valneide",
+      "nomeCompleto": "Valneide Josefa de Oliveira",
+      "comunidade": "Sede da Paróquia",
+      "foto": "cadastro:valneide.webp",
+      "ativo": true
+    },
+    {
+      "id": "m89",
+      "nomeExibicao": "Vandeilton",
+      "nomeCompleto": "Vandeilton Francisco Santos Costa",
+      "comunidade": "Morrinhos",
+      "foto": "cadastro:1786224639929-vandeilton.png",
+      "ativo": true
+    },
+    {
+      "id": "m90",
+      "nomeExibicao": "Verônica",
+      "nomeCompleto": "Verônica Maria de Moura Almondes",
+      "comunidade": "Bugi dos Almondes",
+      "foto": "cadastro:1781325536767-vera.webp",
+      "ativo": true
+    },
+    {
+      "id": "m91",
+      "nomeExibicao": "Vitória",
+      "nomeCompleto": "Vitória de Sousa Almondes Veloso",
+      "comunidade": "Bugi dos Almondes",
+      "foto": "cadastro:1786414267891-chatgpt-image-10-de-ago.-de-2026,-22_37_51.png",
+      "ativo": true
+    },
+    {
+      "id": "m92",
+      "nomeExibicao": "Waléria",
+      "nomeCompleto": "Waléria Maria de Carvalho",
+      "comunidade": "DNER",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m93",
+      "nomeExibicao": "Zilda",
+      "nomeCompleto": "Zilda Rodrigues da Silva Teixeira",
+      "comunidade": "Malhada Grande",
+      "foto": null,
+      "ativo": true
+    },
+    {
+      "id": "m94",
+      "nomeExibicao": "Zilvanete",
+      "nomeCompleto": "Zilvanete Araújo de Moura",
+      "comunidade": "Valparaíso",
+      "foto": null,
+      "ativo": true
+    }
+  ],
+  "celebracoes": [
+    {
+      "id": "c1791390032559",
+      "data": "2026-10-11",
+      "horario": "08:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m44",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m52",
+          "ordem": 2,
+          "local": "altar"
+        }
+      ]
+    },
+    {
+      "id": "c1791390189354",
+      "data": "2026-10-11",
+      "horario": "19:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m30",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m73",
+          "ordem": 2,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m31",
+          "ordem": 3,
+          "local": "patio"
+        },
+        {
+          "ministroId": "m68",
+          "ordem": 4,
+          "local": "patio"
+        }
+      ]
+    },
+    {
+      "id": "c1791390539833",
+      "data": "2026-10-14",
+      "horario": "19:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m48",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m3",
+          "ordem": 2,
+          "local": "altar"
+        }
+      ]
+    },
+    {
+      "id": "c1791390719820",
+      "data": "2026-10-18",
+      "horario": "08:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m51",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m47",
+          "ordem": 2,
+          "local": "altar"
+        }
+      ]
+    },
+    {
+      "id": "c1791390931745",
+      "data": "2026-10-18",
+      "horario": "19:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m88",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m35",
+          "ordem": 2,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m50",
+          "ordem": 3,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m59",
+          "ordem": 4,
+          "local": "altar"
+        }
+      ]
+    },
+    {
+      "id": "c1791391201760",
+      "data": "2026-10-21",
+      "horario": "19:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m48",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m74",
+          "ordem": 2,
+          "local": "altar"
+        }
+      ]
+    },
+    {
+      "id": "c1791393779453",
+      "data": "2026-10-25",
+      "horario": "08:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m41",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m5",
+          "ordem": 2,
+          "local": "altar"
+        }
+      ]
+    },
+    {
+      "id": "c1791393968185",
+      "data": "2026-10-25",
+      "horario": "19:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m20",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m43",
+          "ordem": 2,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m76",
+          "ordem": 3,
+          "local": "patio"
+        },
+        {
+          "ministroId": "m80",
+          "ordem": 4,
+          "local": "patio"
+        }
+      ]
+    },
+    {
+      "id": "c1791394075555",
+      "data": "2026-10-28",
+      "horario": "19:00",
+      "nome": "Santa Missa",
+      "ministros": [
+        {
+          "ministroId": "m58",
+          "ordem": 1,
+          "local": "altar"
+        },
+        {
+          "ministroId": "m4",
+          "ordem": 2,
+          "local": "altar"
+        }
+      ]
+    }
+  ],
+  "seedRealizado": true
+}
