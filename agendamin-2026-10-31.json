@@ -784,19 +784,19 @@
           "local": "altar"
         },
         {
-          "ministroId": "m44",
+          "ministroId": "m52",
           "ordem": 2,
           "local": "altar"
         },
         {
-          "ministroId": "m52",
+          "ministroId": "m30",
           "ordem": 3,
           "local": "patio"
         },
         {
-          "ministroId": "m30",
+          "ministroId": "m50",
           "ordem": 4,
-          "local": "altar"
+          "local": "patio"
         }
       ]
     },
@@ -871,12 +871,12 @@
           "local": "altar"
         },
         {
-          "ministroId": "m50",
+          "ministroId": "m59",
           "ordem": 3,
           "local": "patio"
         },
         {
-          "ministroId": "m59",
+          "ministroId": "m44",
           "ordem": 4,
           "local": "patio"
         }
