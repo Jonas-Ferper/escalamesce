@@ -181,7 +181,7 @@
       "nomeExibicao": "Eliana Luz",
       "nomeCompleto": "Eliana de Sousa Luz",
       "comunidade": "Ponta d’Água",
-      "foto": "cadastro:eliana-luz.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -221,7 +221,7 @@
       "nomeExibicao": "Francisca Adelina",
       "nomeCompleto": "Francisca Adelina Santos",
       "comunidade": "Pedrinhas",
-      "foto": "cadastro:francisca-adelina.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -261,7 +261,7 @@
       "nomeExibicao": "Francisleide",
       "nomeCompleto": "Francisleide Guimarães da Silva",
       "comunidade": "Sede da Paróquia",
-      "foto": "cadastro:francisleide.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -309,7 +309,7 @@
       "nomeExibicao": "Islane",
       "nomeCompleto": "Maria Islane de Moura Silva",
       "comunidade": "Lagoa Grande",
-      "foto": "cadastro:islane.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -325,7 +325,7 @@
       "nomeExibicao": "Jhonathas",
       "nomeCompleto": "Jhonathas Modesto Marques Oliveira",
       "comunidade": "Sede da Paróquia",
-      "foto": "cadastro:jhonathas.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -333,7 +333,7 @@
       "nomeExibicao": "Jocilene",
       "nomeCompleto": "Jocilene Francisca da Silva",
       "comunidade": "Pedrinhas",
-      "foto": "cadastro:jocilene.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -413,7 +413,7 @@
       "nomeExibicao": "Lucianny",
       "nomeCompleto": "Maria Lucianny Lima Barbosa",
       "comunidade": "Sede da Paróquia",
-      "foto": "cadastro:lucianny.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -437,7 +437,7 @@
       "nomeExibicao": "Luiz",
       "nomeCompleto": "Luiz Nogueira Sobrinho",
       "comunidade": "Parque de Exposição",
-      "foto": "cadastro:luiz.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -461,7 +461,7 @@
       "nomeExibicao": "Marcos Mateus",
       "nomeCompleto": "Marcos Mateus Noronha Rocha",
       "comunidade": "Sede da Paróquia",
-      "foto": "cadastro:marcos-mateus.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -525,7 +525,7 @@
       "nomeExibicao": "Maria Leni",
       "nomeCompleto": "Maria Leni Luz de Sousa Araújo",
       "comunidade": "Valparaíso",
-      "foto": "cadastro:maria-leni.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -573,7 +573,7 @@
       "nomeExibicao": "Mykael",
       "nomeCompleto": "Mykael Moura Menezes",
       "comunidade": "Lagoa Grande",
-      "foto": "cadastro:mykael.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -685,7 +685,7 @@
       "nomeExibicao": "Thaís",
       "nomeCompleto": "Thaís Aparecida Barros",
       "comunidade": "Cipaúba",
-      "foto": "cadastro:thais.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -733,7 +733,7 @@
       "nomeExibicao": "Waléria",
       "nomeCompleto": "Waléria Maria de Carvalho",
       "comunidade": "DNER",
-      "foto": "cadastro:waleria.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -741,7 +741,7 @@
       "nomeExibicao": "Zilda",
       "nomeCompleto": "Zilda Rodrigues da Silva Teixeira",
       "comunidade": "Malhada Grande",
-      "foto": "cadastro:zilda.svg",
+      "foto": null,
       "ativo": true
     },
     {
@@ -749,7 +749,7 @@
       "nomeExibicao": "Zilvanete",
       "nomeCompleto": "Zilvanete Araújo de Moura",
       "comunidade": "Valparaíso",
-      "foto": "cadastro:zilvanete.svg",
+      "foto": null,
       "ativo": true
     }
   ],
@@ -999,14 +999,14 @@
           "local": "altar"
         },
         {
-          "ministroId": "m76",
+          "ministroId": "m51",
           "ordem": 3,
-          "local": "altar"
+          "local": "patio"
         },
         {
-          "ministroId": "m80",
+          "ministroId": "m68",
           "ordem": 4,
-          "local": "altar"
+          "local": "patio"
         }
       ]
     },
@@ -1058,17 +1058,17 @@
           "local": "altar"
         },
         {
-          "ministroId": "m68",
+          "ministroId": "m3",
           "ordem": 2,
           "local": "altar"
         },
         {
-          "ministroId": "m3",
+          "ministroId": "m76",
           "ordem": 3,
           "local": "patio"
         },
         {
-          "ministroId": "m51",
+          "ministroId": "m80",
           "ordem": 4,
           "local": "patio"
         }
