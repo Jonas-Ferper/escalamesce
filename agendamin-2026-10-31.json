@@ -181,7 +181,7 @@
       "nomeExibicao": "Eliana Luz",
       "nomeCompleto": "Eliana de Sousa Luz",
       "comunidade": "Ponta d’Água",
-      "foto": null,
+      "foto": "cadastro:eliana-luz.svg",
       "ativo": true
     },
     {
@@ -221,7 +221,7 @@
       "nomeExibicao": "Francisca Adelina",
       "nomeCompleto": "Francisca Adelina Santos",
       "comunidade": "Pedrinhas",
-      "foto": null,
+      "foto": "cadastro:francisca-adelina.svg",
       "ativo": true
     },
     {
@@ -261,7 +261,7 @@
       "nomeExibicao": "Francisleide",
       "nomeCompleto": "Francisleide Guimarães da Silva",
       "comunidade": "Sede da Paróquia",
-      "foto": null,
+      "foto": "cadastro:francisleide.svg",
       "ativo": true
     },
     {
@@ -309,7 +309,7 @@
       "nomeExibicao": "Islane",
       "nomeCompleto": "Maria Islane de Moura Silva",
       "comunidade": "Lagoa Grande",
-      "foto": null,
+      "foto": "cadastro:islane.svg",
       "ativo": true
     },
     {
@@ -325,7 +325,7 @@
       "nomeExibicao": "Jhonathas",
       "nomeCompleto": "Jhonathas Modesto Marques Oliveira",
       "comunidade": "Sede da Paróquia",
-      "foto": null,
+      "foto": "cadastro:jhonathas.svg",
       "ativo": true
     },
     {
@@ -333,7 +333,7 @@
       "nomeExibicao": "Jocilene",
       "nomeCompleto": "Jocilene Francisca da Silva",
       "comunidade": "Pedrinhas",
-      "foto": null,
+      "foto": "cadastro:jocilene.svg",
       "ativo": true
     },
     {
@@ -413,7 +413,7 @@
       "nomeExibicao": "Lucianny",
       "nomeCompleto": "Maria Lucianny Lima Barbosa",
       "comunidade": "Sede da Paróquia",
-      "foto": null,
+      "foto": "cadastro:lucianny.svg",
       "ativo": true
     },
     {
@@ -437,7 +437,7 @@
       "nomeExibicao": "Luiz",
       "nomeCompleto": "Luiz Nogueira Sobrinho",
       "comunidade": "Parque de Exposição",
-      "foto": null,
+      "foto": "cadastro:luiz.svg",
       "ativo": true
     },
     {
@@ -461,7 +461,7 @@
       "nomeExibicao": "Marcos Mateus",
       "nomeCompleto": "Marcos Mateus Noronha Rocha",
       "comunidade": "Sede da Paróquia",
-      "foto": null,
+      "foto": "cadastro:marcos-mateus.svg",
       "ativo": true
     },
     {
@@ -525,7 +525,7 @@
       "nomeExibicao": "Maria Leni",
       "nomeCompleto": "Maria Leni Luz de Sousa Araújo",
       "comunidade": "Valparaíso",
-      "foto": null,
+      "foto": "cadastro:maria-leni.svg",
       "ativo": true
     },
     {
@@ -573,7 +573,7 @@
       "nomeExibicao": "Mykael",
       "nomeCompleto": "Mykael Moura Menezes",
       "comunidade": "Lagoa Grande",
-      "foto": null,
+      "foto": "cadastro:mykael.svg",
       "ativo": true
     },
     {
@@ -685,7 +685,7 @@
       "nomeExibicao": "Thaís",
       "nomeCompleto": "Thaís Aparecida Barros",
       "comunidade": "Cipaúba",
-      "foto": null,
+      "foto": "cadastro:thais.svg",
       "ativo": true
     },
     {
@@ -733,7 +733,7 @@
       "nomeExibicao": "Waléria",
       "nomeCompleto": "Waléria Maria de Carvalho",
       "comunidade": "DNER",
-      "foto": null,
+      "foto": "cadastro:waleria.svg",
       "ativo": true
     },
     {
@@ -741,7 +741,7 @@
       "nomeExibicao": "Zilda",
       "nomeCompleto": "Zilda Rodrigues da Silva Teixeira",
       "comunidade": "Malhada Grande",
-      "foto": null,
+      "foto": "cadastro:zilda.svg",
       "ativo": true
     },
     {
@@ -749,7 +749,7 @@
       "nomeExibicao": "Zilvanete",
       "nomeCompleto": "Zilvanete Araújo de Moura",
       "comunidade": "Valparaíso",
-      "foto": null,
+      "foto": "cadastro:zilvanete.svg",
       "ativo": true
     }
   ],
